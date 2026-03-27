@@ -384,13 +384,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <compilerArguments>
-                        <Xlint/>
-                    </compilerArguments>
-                    <verbose>true</verbose>
-                    <source>8</source>
-                    <target>8</target>
-                    <showWarnings>true</showWarnings>
+                    <release>8</release>
                 </configuration>
             </plugin>
             <plugin>
